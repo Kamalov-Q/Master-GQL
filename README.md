@@ -29,7 +29,7 @@ npm install
 docker compose up -d
 ```
 
-This starts Postgres 16 on **port 5433** with user `kamal`, password `kamalov1029`, and database `app_db`.
+This starts Postgres 16 on **port 5433** with user `user`, password `user1029`, and database `app_db`.
 
 ### 3. Environment variables
 
@@ -38,8 +38,8 @@ Create a `.env` in the project root. Prefer **DB_*** variables so the correct DB
 ```env
 DB_HOST=localhost
 DB_PORT=5433
-DB_USER=kamal
-DB_PASSWORD=kamalov1029
+DB_USER=user
+DB_PASSWORD=user1029
 DB_NAME=app_db
 ```
 
@@ -94,3 +94,8 @@ src/
 ## License
 
 UNLICENSED (private).
+
+## Author
+Kamalov Quvomiddin
+
+https://t.me/kamalovq
