@@ -79,7 +79,7 @@ src/
 ```
 
 ## Scripts
-
+ 
 | Command           | Description                |
 |-------------------|----------------------------|
 | `npm run dev`     | Start in watch mode        |
